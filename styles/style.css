@@ -81,7 +81,6 @@
   gap: 20px;
 }
 .images img {
-  
   width: 6vw;
   margin: 20px 0px;
 }
@@ -98,13 +97,30 @@
 .banner section {
   display: flex;
 }
-.Box{
+.Box {
   /* border: 2px solid cyan; */
 }
 .image img {
   width: 90%;
   height: 80%;
   margin: 30px;
+}
+.btn-section {
+  display: flex;
+  /* border: 1px solid rgb(85, 82, 82); */
+  box-shadow: 1px 1px 1px 1px rgb(173, 170, 170);
+  border-radius: 10px;
+  justify-content: center;
+  margin: 15px 40px;
+  gap: 60px;
+}
+.mobaile {
+  width: 40vw;
+  margin: auto;
+  text-align: center;
+}
+.mobaile img {
+  width: 25vw;
 }
 .shop-section {
   width: 90vw;
@@ -113,4 +129,9 @@
   display: flex;
   justify-items: center;
   justify-content: center;
+}
+.footer{
+  text-align: center;
+  font-family: sans-serif;
+  margin: 70px  0px;
 }
