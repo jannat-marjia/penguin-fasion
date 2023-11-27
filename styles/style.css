@@ -1,0 +1,116 @@
+.body {
+  margin: 0%;
+  padding: 0%;
+}
+.menuConrtainer {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  padding: 30px 20px;
+  font-family: sans-serif;
+}
+.menu img {
+  width: 25vw;
+}
+.menuber li {
+  display: inline;
+  font-size: 18px;
+  margin: 0px 25px;
+}
+.BannerSection {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.bannertitle {
+  margin: 45px 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.bannertitle h1 {
+  font-size: 55px;
+  font-family: inherit;
+}
+.Title {
+  font-family: sans-serif;
+  color: rgb(4, 4, 65);
+  margin-left: 15%;
+}
+.shopping-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.cart {
+  /* border:1px solid red; */
+  width: 25vw;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.cart h4 {
+  color: rgb(4, 4, 65);
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.cart-btn {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+}
+.Btn {
+  background-color: rgb(99, 139, 17);
+  padding: 15px 15px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.cart img {
+  width: 10vw;
+  /* margin: auto; */
+  /* border: 1px solid green; */
+  margin-left: 90px;
+}
+.section {
+  display: flex;
+
+  margin: 30px auto;
+  width: 40vw;
+
+  gap: 20px;
+}
+.images img {
+  
+  width: 6vw;
+  margin: 20px 0px;
+}
+.titles {
+  font-family: sans-serif;
+}
+.titles h2 {
+  color: rgb(4, 4, 65);
+}
+
+.image img {
+  width: 30vw;
+}
+.banner section {
+  display: flex;
+}
+.Box{
+  /* border: 2px solid cyan; */
+}
+.image img {
+  width: 90%;
+  height: 80%;
+  margin: 30px;
+}
+.shop-section {
+  width: 90vw;
+  padding: 20px;
+  margin: 70px auto;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
